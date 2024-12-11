@@ -1,0 +1,42 @@
+name: objetos_perdidos
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.0.15
+  image_picker: ^1.1.2
+  file_picker: ^8.1.4
+  intl: ^0.19.0
+  fl_chart: ^0.69.2
+  pdf: ^3.10.1
+  path_provider: ^2.0.15
+  open_file: ^3.2.1
+  html: ^0.15.5
+  printing: ^5.13.4
+  permission_handler: ^11.3.1
+  universal_io: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/skibidihomero.png
+    - assets/Icono.png
+  fonts:
+    - family: Parkinsans
+      fonts:
+        - asset: assets/fonts/Parkinsans-Regular.ttf
+        - asset: assets/fonts/Parkinsans-Bold.ttf
+          weight: 700
